@@ -38,3 +38,36 @@
     float: left;
 }
 /* #endregion 顶部导航条 end */
+
+/* #region 头部 start */
+.header {
+    height: 120px;
+}
+.header .logo img {
+    height: 120px;
+    width: 190px;
+}
+.header .search form {
+    height: 120px;
+    line-height: 120px;
+    font-size: 0px;
+}
+.header .search input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid #ff0c0c;
+    vertical-align: middle;
+    padding: 0px 8px;
+}
+.header .search button {
+    width: 80px;
+    height: 36px;
+    background-color: #ff0c0c;
+    vertical-align: middle;
+}
+.header .search img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+/* #endregion 头部 end */
