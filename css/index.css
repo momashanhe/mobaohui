@@ -71,3 +71,32 @@
     margin: auto;
 }
 /* #endregion 头部 end */
+
+/* #region 主导航区 start */
+.main-nav {
+    height: 48px;
+    border-bottom: 1px solid #ff0c0c;
+}
+.main-nav .name,
+.main-nav .list
+ {
+    height: 48px;
+    line-height: 48px;
+    font-size: 0px;
+}
+.main-nav .name {
+    width: 190px;
+    background-color: #ff0c0c;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.main-nav .list li {
+    float: left;
+    margin: 0px 10px;
+}
+.main-nav .list a {
+    font-size: 16px;
+    vertical-align: middle;
+}
+/* #endregion 主导航区 end */
