@@ -1,0 +1,40 @@
+/* #region 基础设置 start */
+.container {
+    width: 1190px;
+    height: 100%;
+    margin: auto;
+}
+.separate {
+    font-size: 8px;
+    border: 1px solid #666;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+/* #endregion 基础设置 end */
+
+/* #region 顶部导航条 start */
+.topbar {
+    height: 30px;
+    background-color: #ececec;
+}
+.topbar .welcome,
+.topbar .list
+ {
+    height: 30px;
+    line-height: 30px;
+    font-size: 0px;
+    color: #666;
+}
+.topbar .welcome .hello,
+.topbar .welcome a,
+.topbar .list a {
+    font-size: 12px;
+    vertical-align: middle;
+}
+.topbar .welcome .hello {
+    margin-right: 28px;
+}
+.topbar .list li {
+    float: left;
+}
+/* #endregion 顶部导航条 end */
