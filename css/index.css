@@ -187,6 +187,59 @@
 .main-content .side-right {
     width: 290px;
     height: 458px;
+    font-size: 0px;
+}
+.main-content .side-right .news {
+    width: 260px;
+    height: 156px;
+    padding: 0px 14px;
+    border: 1px solid #d9d9d9;
+}
+.main-content .side-right .title {
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.main-content .side-right .title span {
+    font-size: 14px;
+}
+.main-content .side-right .title a {
+    font-size: 12px;
+}
+.main-content .side-right .title a span {
+    margin-left: 5px;
+}
+.main-content .side-right .list {
+    line-height: 26px;
+}
+.main-content .side-right .list ul {
+    padding: 6px 0px;
+}
+.main-content .side-right .list li {
+    font-size: 12px;
+}
+.main-content .side-right .icons {
+    width: 272px;
+    height: 268px;
+    margin-top: 10px;
+    padding: 10px 8px;
+    border: 1px solid #d9d9d9;
+}
+.main-content .side-right .icons a {
+    display: inline-block;
+    text-align: center;
+    width: 68px;
+    height: 70px;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.main-content .side-right .icons a span {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+}
+.main-content .side-right .icons a img {
+    margin: 0px auto;
 }
 /* #endregion 主内容区-右侧快捷入口 end */
 
