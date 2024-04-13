@@ -291,3 +291,16 @@
 /* #endregion 主内容区-右侧快捷入口 end */
 
 /* #endregion 主内容区 end */
+
+/* #region 特惠专区 start */
+.special {
+    font-size: 0px;
+    margin-top: 10px;
+}
+.special img {
+    display: inline-block;
+}
+.special .sales {
+    margin-left: 10px;
+}
+/* #endregion 特惠专区 end */
