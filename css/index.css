@@ -83,7 +83,6 @@
     height: 48px;
     line-height: 48px;
     font-size: 0px;
-    padding: 0px 10px;
 }
 .main-nav .name {
     width: 190px;
@@ -91,6 +90,9 @@
     color: #fff;
     font-size: 16px;
     text-align: center;
+}
+.main-nav .list {
+    padding: 0px 10px;
 }
 .main-nav .list li {
     float: left;
@@ -318,19 +320,17 @@
     background-color: #f4f4f4;
 }
 .floor .title .name {
-    width: 120px;
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
 }
 .floor .title .links {
     height: 48px;
     line-height: 48px;
     font-size: 0px;
-    padding: 0px 10px;
+    padding-left: 10px;
 }
 .floor .title .links a {
-    font-size: 16px;
-    margin: 0px 10px;
+    font-size: 14px;
+    margin-left: 10px;
 }
 .floor .info {
     width: 1190px;
@@ -351,10 +351,10 @@
 }
 .floor .info .hot .links a {
     display: inline-block;
-    width: 88px;
-    font-size: 16px;
+    width: 82px;
+    font-size: 14px;
     text-align: center;
-    margin: 8px 5px;
+    margin: 8px 8px;
     padding-bottom: 1px;
     border-bottom: 1px solid #d9d9d9;
 }
@@ -388,3 +388,55 @@
     border-bottom: 1px solid #E2E2E2;
 }
 /* #endregion 楼层分区 end */
+
+/* #region 页脚 start */
+.footer {
+    height: 440px;
+    font-size: 0px;
+    background-color: #483e3e;
+}
+.footer .top {
+    padding: 24px 0px;
+}
+.footer .top dl {
+    width: 200px;
+    margin-right: 10px;
+}
+.footer .top dl span,
+.footer .top dl a {
+    display: inline-block;
+    width: 200px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #fff;
+}
+.footer .top dt span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.footer .top dd a:hover {
+    color: #dd302d;
+}
+.footer .top .code img {
+    width: 140px;
+}
+.footer .bottom {
+    font-size: 12px;
+    padding: 24px 0px;
+    border-top: 1px solid #584d4d;
+}
+.footer .bottom div {
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+}
+.footer .bottom a,
+.footer .bottom span {
+    color: #fff;
+}
+.footer .bottom a:hover {
+    color: #dd302d;
+}
+/* #endregion 页脚 end */
