@@ -17,6 +17,9 @@
     height: 30px;
     background-color: #ececec;
 }
+.topbar .container {
+    background-color: #ececec;
+}
 .topbar .welcome,
 .topbar .list
  {
@@ -75,6 +78,9 @@
 /* #region 主导航区 start */
 .main-nav {
     height: 48px;
+    border-bottom: 1px solid #ff0c0c;
+}
+.main-nav .container {
     border-bottom: 1px solid #ff0c0c;
 }
 .main-nav .name,
@@ -393,6 +399,9 @@
 .footer {
     height: 400px;
     font-size: 0px;
+    background-color: #483e3e;
+}
+.footer .container {
     background-color: #483e3e;
 }
 .footer .top {
